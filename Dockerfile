@@ -1,8 +1,8 @@
 # Use an official Node.js runtime as a parent image
 FROM node:8.11.1
 # Set npm registry to China Taobao and install Gitbook
-RUN npm config set registry https://registry.npm.taobao.org && \
-    npm install gitbook-cli -g && \
+#RUN npm config set registry https://registry.npm.taobao.org && \
+RUN npm install gitbook-cli -g && \
     gitbook -V && \
     mkdir /gitbook
 
