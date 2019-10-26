@@ -5,6 +5,7 @@ FROM node:8.11.1
 RUN npm install gitbook-cli -g && \
     gitbook -V && \
     mkdir /gitbook
+COPY book.json /gitbook/
 
 # Make port 4000 available to the world outside this container
 EXPOSE 4000
