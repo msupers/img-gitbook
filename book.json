@@ -1,0 +1,13 @@
+{
+    "title": "my gitbook",
+    "description": " some docs for bigdata！",
+    "isbn": "978-3-16-148410-0",
+    "language": "zh-cn",
+    "direction": "ltr",
+    "plugins": [
+    "-search",
+    "back-to-top-button",
+    "expandable-chapters-small",
+    "insert-logo"
+    ]
+}
